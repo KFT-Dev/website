@@ -2,14 +2,24 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>KFT Loading</title>
+  <title>KFT ローディング</title>
   <style>
+    body {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    svg {
+      width: 60%;
+      max-width: 600px;
+    }
     .draw-animation {
-      stroke-dasharray: 300;
-      stroke-dashoffset: 300;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
       animation: draw 3s ease forwards;
     }
-
     @keyframes draw {
       to {
         stroke-dashoffset: 0;
@@ -18,12 +28,13 @@
   </style>
 </head>
 <body>
-  <svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10,80 C20,30 40,30 50,80 M50,80 L55,60 L65,80 L70,60 M70,60 L90,60 M90,60 L90,50"
-          stroke="black"
-          fill="none"
-          stroke-width="2"
-          class="draw-animation"/>
+
+  <!-- SVG本体をコピペ -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+    <!-- 以下、SVGのパスをコピペして貼り付ける（例として1パスだけ記載） -->
+    <path d="M269.749 1548.26C285.707..." class="draw-animation" fill="none" stroke="black" stroke-width="8"/>
+    <!-- 他の <path> もあれば同様に class="draw-animation" を付ける -->
   </svg>
+
 </body>
 </html>
