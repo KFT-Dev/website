@@ -1,8 +1,13 @@
-// 5秒後にローディング非表示
-    window.addEventListener("load", function() {
-      setTimeout(() => {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("content").style.display = "block";
-        document.body.style.overflow = "auto";
-      }, 3000);
-    });
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    // ロゴを非表示
+    document.getElementById("loader").style.display = "none";
+
+    // メイン表示
+    const main = document.getElementById("main");
+    main.style.opacity = 1;
+
+    // スクロール復活（任意）
+    document.body.style.overflow = "auto";
+  }, 4000); // アニメーション4秒後
+});

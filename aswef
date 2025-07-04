@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>千ロゴアニメーション</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- ローディングロゴ -->
-  <div id="loader">
-    <svg class="logo" viewBox="0 0 1580 1580">
-      <path id="sen" d="M 685.03,769.32
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1580 1580">
+  <path id="選択範囲" fill="none" stroke="black" stroke-width="1" d="M 685.03,769.32
            C 685.03,769.32 671.03,782.36 671.03,782.36
              671.03,782.36 639.03,814.31 639.03,814.31
              639.03,814.31 617.03,835.32 617.03,835.32
@@ -128,16 +121,5 @@
              704.94,1027.32 701.12,981.32 701.12,981.32
              701.12,981.32 690.94,844.32 690.94,844.32
              690.94,844.32 686.94,791.32 686.94,791.32
-             686.94,791.32 685.03,769.32 685.03,769.32 Z" />
-    </svg>
-  </div>
-
-  <!-- メイン -->
-  <div id="main">
-    <h1>メインコンテンツ</h1>
-    <p>ロゴアニメ後に表示されます。</p>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+             686.94,791.32 685.03,769.32 685.03,769.32 Z" class="svg-elem-1"></path>
+</svg>
