@@ -2,25 +2,15 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Loading Animation</title>
+  <title>千ロゴアニメーション</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- ローディング画面 -->
-  <div id="loader">
-    <div class="loading-text">
-      <span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span>
-    </div>
+  <div class="logo-container">
+    <svg viewBox="0 0 100 100" class="logo">
+      <!-- 仮のパス：本物のロゴのSVGパスに差し替えが必要 -->
+      <path d="M10,50 Q40,10 70,50 Q40,90 10,50 Z" />
+    </svg>
   </div>
-
-  <!-- メインコンテンツ -->
-  <div id="content">
-    <h1>ようこそ！</h1>
-    <p>これは5秒後に表示されるページです。</p>
-  </div>
-
-  <script src="style.js"></script>
-
 </body>
 </html>
