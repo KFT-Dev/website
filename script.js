@@ -4,8 +4,8 @@ window.addEventListener('load', () => {
   const main = document.getElementById('main');
 
   setTimeout(() => {
-    loader.style.display = 'none'; // ローディングを非表示
-    background.style.opacity = 1;  // 背景を表示
-    main.style.opacity = 1;        // メインを表示
-  }, 3000); // アニメ時間と合わせて4秒
+    loader.style.display = 'none'; // ロゴ消す
+    background.style.opacity = 1;  // 背景表示
+    main.style.opacity = 1;        // コンテンツ表示
+  }, 4000); // ロゴアニメに合わせて
 });

@@ -2,12 +2,13 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>千ロゴアニメーション</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- ローディング -->
     <div id="loader">
-      <!-- ✅ body の中に入れる -->
       <svg class="logo" viewBox="0 0 1580 1580">
         <path
           id="sen"
@@ -132,15 +133,39 @@
              690.94,844.32 686.94,791.32 686.94,791.32
              686.94,791.32 685.03,769.32 685.03,769.32 Z"
         />
+        <!-- 上記省略部分にはあなたのSVGパス全体を入れてください -->
       </svg>
     </div>
 
+    <!-- 背景 -->
     <div id="background"></div>
 
-    <div id="main">
+    <!-- ヘッダー -->
+    <header>
+      <div class="container">
+        <h1 class="logo-text">My Website</h1>
+        <nav>
+          <ul>
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">サービス</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- メイン -->
+    <main id="main">
       <h1>メインコンテンツ</h1>
       <p>ロゴアニメ後に表示されます。</p>
-    </div>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
