@@ -1,0 +1,32 @@
+header {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: "Marck Script", cursive;
+  font-size: 20px;
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
