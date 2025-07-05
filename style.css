@@ -31,7 +31,7 @@ body {
 #sen {
   fill: none;
   stroke: white;
-  stroke-width: 3;
+  stroke-width: 16;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000;
   animation: draw 4s ease forwards;

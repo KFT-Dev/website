@@ -9,5 +9,5 @@ window.addEventListener("load", () => {
 
     // スクロール復活（任意）
     document.body.style.overflow = "auto";
-  }, 4000); // アニメーション4秒後
+  }, 3000); // アニメーション4秒後
 });
