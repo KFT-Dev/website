@@ -99,7 +99,7 @@ nav a {
   color: white;
   padding: 100px 20px;
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity 1.5s ease;
 }
 
 /* フッター */
