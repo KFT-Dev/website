@@ -1,0 +1,43 @@
+/* メイン */
+#main {
+  margin-top: 80px;
+  font-family: "Marck Script", cursive;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: black;
+  padding: 100px 20px;
+}
+
+.title h1 {
+  font-size: 80px;
+}
+
+.title h2 {
+  font-size: 50px;
+}
+
+.profile-links {
+  padding-left: 160px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* モバイル対応 */
+}
+
+.profile-links a {
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.profile-links a:hover {
+  background-color: #007bff;
+  color: white;
+}

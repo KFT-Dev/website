@@ -20,9 +20,9 @@
 
 .portfolio {
   margin: 40px auto;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-.portfolio h1{
-  font-family: "Marck Script", cursive;
+.portfolio h1 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 60px;
 }
