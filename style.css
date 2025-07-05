@@ -108,6 +108,68 @@ nav a {
   transition: opacity 1.5s ease;
 }
 
+#main h1 {
+  font-size: 60px;
+}
+
+.profile-card {
+  margin: 150px auto 0; /* ← 上から150px、左右はauto */
+  background: #23272a;
+  border-radius: 15px;
+  padding: 30px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* プロフィールアイコン（左側） */
+.profile-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* プロフィール情報（右側） */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 名前 */
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* ユーザータグ */
+.profile-tag {
+  font-size: 18px;
+  color: #b9bbbe;
+  margin-bottom: 10px;
+}
+
+/* 小さいアイコン（横並び） */
+.profile-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-icons img {
+  width: 28px;
+  height: 28px;
+}
+
+/* アカウント作成日 */
+.account-created {
+  font-size: 14px;
+  color: #b9bbbe;
+}
+
 /* フッター */
 footer {
   display: flex;
