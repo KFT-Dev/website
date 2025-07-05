@@ -33,11 +33,13 @@ footer .march7th a:hover {
 }
 
 footer .march7th p {
-  color: rgba(2);
+  text-align: left;
+  color: rgba(235, 235, 235, 0.5);
   font-size: 13px;
   margin: 0;
   line-height: 0.8;
   white-space: pre-line;
+  margin-bottom: 5px;
 }
 
 footer .container p {
