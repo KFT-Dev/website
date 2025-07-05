@@ -92,7 +92,7 @@
   text-align: left;
   margin-top: 100px;
   margin-left: 100px;
-  color: rgpa(255, 255, 255 0.5);
+  color: rgba(255, 255, 255 ,0.5);
 }
 
 .links a {
@@ -100,6 +100,7 @@
   margin-right: 40px;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   text-decoration: none;
+  color: rgba(255, 255, 255 ,0.8);
 }
 
 .links a:hover {
@@ -107,5 +108,7 @@
 }
 
 .links p {
+  margin-top:30px;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: rgba(255, 255, 255 0.5);
 }
