@@ -62,6 +62,7 @@ html, body {
 header {
   background: rgba(0, 0, 0, 0.6);
   color: white;
+  font-family: "Permanent Marker", cursive;
   padding: 20px 0;
   position: relative;
   z-index: 2;
