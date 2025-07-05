@@ -18,18 +18,10 @@
   font-size: 30px;
 }
 
-.shadow {
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+.profile {
+  margin-top: 80px;
 }
 
-.Notfound {
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
-  margin-top: 100px;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 30px;
-  max-width: 1250px;
-  margin: 50px auto 0;
-  padding: 0 10px;
-  align-items: center;
-  gap: 20px;
+.profile h1 {
+  color: black;
 }
