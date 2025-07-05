@@ -18,6 +18,10 @@ header {
   justify-content: space-between;
 }
 
+.logos img {
+  height: 50px; /* 必要に応じて調整 */
+}
+
 nav ul {
   display: flex;
   list-style: none;

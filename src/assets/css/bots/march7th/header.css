@@ -1,8 +1,8 @@
 /* ヘッダー */
 header {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(30, 30, 30, 1);
   color: white;
-  font-family: "Marck Script", cursive;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-size: 20px;
   padding: 20px 0;
   position: relative;
@@ -16,6 +16,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logos img {
+  height: 50px; /* 必要に応じて調整 */
 }
 
 nav ul {

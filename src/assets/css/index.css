@@ -29,10 +29,6 @@ body {
   height: 200px;
 }
 
-.logos img {
-  height: 50px; /* 必要に応じて調整 */
-}
-
 /* SVGアニメーション */
 #sen {
   fill: none;
