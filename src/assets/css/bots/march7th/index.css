@@ -39,3 +39,51 @@
   height: auto;
   border-radius: 12px;
 }
+
+#detail {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* ← ここが追加 */
+}
+
+#detail h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: white;
+}
+
+.feature-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 250px;
+}
+
+.feature-box {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.feature-box img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.feature-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: white;
+}
+
+.feature-box p {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.2;
+  color: white;
+}
