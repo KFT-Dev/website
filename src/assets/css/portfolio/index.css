@@ -1,0 +1,28 @@
+/* メイン */
+#main {
+  margin-top: 80px;
+  font-family: "Marck Script", cursive;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: black;
+  padding: 100px 20px;
+}
+
+.title h1 {
+  font-size: 60px;
+}
+
+.title h2 {
+  font-size: 30px;
+}
+
+.portfolio {
+  margin: 40px auto;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.portfolio h1{
+  font-family: "Marck Script", cursive;
+}
