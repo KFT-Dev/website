@@ -123,6 +123,11 @@ nav a {
 
 /* Discord */
 .profile {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;  
+  max-width: 1600px;
+  margin: 120px auto 0;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -130,7 +135,8 @@ nav a {
 
 /* アイコン画像 */
 #discord-icon {
-  marigin-left: 120px;
+  margin-top: 20px;
+  margin-left: 40px;
   width: 96px;
   height: 96px;
   border-radius: 50%;     /* 丸くする */
@@ -152,7 +158,7 @@ nav a {
 
 #discord-sub-name {
   font-size: 14px;
-  color: #aaa;
+  color: #aaaaaa;
 }
 
 
