@@ -1,12 +1,46 @@
-/* フッター */
 footer {
-  font-family: "Marck Script", cursive;
+  font-family: "Kanit", sans-serif;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   z-index: 2;
-  background: rgba(30, 30, 30, 1);
+  background: rgba(50, 50, 50, 1);
   color: white;
   text-align: center;
   padding: 20px 0;
 }
- 
+
+footer .march7th {
+  margin-bottom: 15px;
+}
+
+footer .march7th .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+footer .march7th a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .march7th a:hover {
+  text-decoration: underline;
+}
+
+footer .march7th p {
+  color: rgba(2);
+  font-size: 13px;
+  margin: 0;
+  line-height: 0.8;
+  white-space: pre-line;
+}
+
+footer .container p {
+  font-size: 14px;
+  margin: 0;
+}
