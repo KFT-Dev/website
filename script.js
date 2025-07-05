@@ -1,13 +1,11 @@
-window.addEventListener("load", () => {
+window.addEventListener('load', () => {
+  const loader = document.getElementById('loader');
+  const background = document.getElementById('background');
+  const main = document.getElementById('main');
+
   setTimeout(() => {
-    // ロゴを非表示
-    document.getElementById("loader").style.display = "none";
-
-    // メイン表示
-    const main = document.getElementById("main");
-    main.style.opacity = 1;
-
-    // スクロール復活（任意）
-    document.body.style.overflow = "auto";
-  }, 3000); // アニメーション4秒後
+    loader.style.display = 'none'; // ローディングを非表示
+    background.style.opacity = 1;  // 背景を表示
+    main.style.opacity = 1;        // メインを表示
+  }, 3000); // アニメ時間と合わせて4秒
 });
