@@ -43,7 +43,10 @@ body {
 #background {
   position: fixed;
   inset: 0;
-  background-image: url('https://cdn.glitch.global/06a5f290-5f65-48fc-a309-53b050492d6c/VRChat_2025-06-13_03-05-46.131_3840x2160.png?v=1751687514551');
+  background-image: url('https://cdn.glitch.global/06a5f290-5f65-48fc-a309-53b050492d6c/VRChat_2025-05-06_11-46-13.965_3840x2160.png?v=1751687773119');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
   z-index: 1;
   opacity: 0;
   transition: opacity 1s ease;
