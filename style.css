@@ -54,6 +54,7 @@ html, body {
   position: fixed;
   inset: 0;
   background-image: url('https://cdn.glitch.global/06a5f290-5f65-48fc-a309-53b050492d6c/VRChat_2025-05-25_22-35-45.051_3840x2160.png?v=1751694682191');
+  filter: brightness(80%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,10 +112,12 @@ nav a {
 
 #main h1 {
   font-size: 80px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
 
 #main p {
   font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 /* フッター */
@@ -123,7 +126,7 @@ footer {
   position: relative;
   z-index: 2;
   background: rgba(0, 0, 0, 0.6);
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 0;
 }
