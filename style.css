@@ -111,64 +111,35 @@ nav a {
   transition: opacity 1.5s ease;
 }
 
-#main h1 {
-  font-size: 80px;
+.shadow h1 {
+  font-size: 60px;
+}
+
+.shadow h2 {
+  font-size: 30px;
+}
+
+.shadow {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
 
-#main p {
-  font-size: 30px;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
-}
-
-/* Discord */
-.profile {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 30px;  
+.Notfound {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
   max-width: 1800px;
-  margin: 120px;
   align-items: center;
   gap: 20px;
 }
 
-.profile #h1 {
-  padding-top: 20px;
-  font-size: 40px;
-}
-
-/* アイコン画像 */
-#discord-icon {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;     /* 丸くする */
-  object-fit: cover;  
-  flex-shrink: 0;         /* 小さくならないように固定 */
-}
-
-/* 右側の名前など */
-.profile-info {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-#discord-main-name {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-#discord-sub-name {
-  font-size: 22px;
-  color: #aaaaaa;
-}
-
-
 /* フッター */
 footer {
+  font-family: "Marck Script", cursive;
   display: flex;
   position: relative;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   color: black;
   text-align: center;
   padding: 10px 0;
