@@ -87,3 +87,25 @@
   line-height: 1.2;
   color: white;
 }
+
+.links {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: rgpa(255, 255, 255 0.5);
+}
+
+.links a {
+  font-size: 24px;
+  margin-right: 40px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
