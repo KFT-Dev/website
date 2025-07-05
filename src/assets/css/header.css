@@ -1,12 +1,15 @@
 /* ヘッダー */
 header {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   color: white;
   font-family: "Marck Script", cursive;
   font-size: 20px;
   padding: 20px 0;
-  position: relative;
-  z-index: 2;
+  position: fixed; /* ← fixedに変更 */
+  top: 0; /* 画面最上部に固定 */
+  left: 0;
+  width: 100%;
+  z-index: 10; /* 重なり順を上に */
 }
 
 .container {

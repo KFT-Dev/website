@@ -46,6 +46,7 @@
 
 /* メイン */
 #main {
+  margin-top: 80px;
   font-family: "Marck Script", cursive;
   flex: 1;
   position: relative;
