@@ -7,5 +7,5 @@ window.addEventListener('load', () => {
     loader.style.display = 'none'; // ロゴ消す
     background.style.opacity = 1;  // 背景表示
     main.style.opacity = 1;        // コンテンツ表示
-  }, 4000); // ロゴアニメに合わせて
+  }, 3000); // ロゴアニメに合わせて
 });

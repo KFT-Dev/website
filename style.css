@@ -70,7 +70,7 @@ header {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -104,22 +104,11 @@ nav a {
 
 /* フッター */
 footer {
+  display: flex;
   position: relative;
   z-index: 2;
   background: rgba(0, 0, 0, 0.6);
   color: white;
-  justify-content: center; /* 横中央 */
-  align-items: center;
   text-align: center;
-  padding: 20px 0;
-}
-
-footer {
-  display: flex;
-  justify-content: center; /* 横中央 */
-  align-items: center;     /* 縦中央 */
-  width: 100%;
-  height: 60px;            /* 必要に応じて */
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
+  padding: 10px 0;
 }
