@@ -1,4 +1,4 @@
-#back-ground {
+#background {
   background-color: rgba(245, 245, 245, 0.95);
   background-image: radial-gradient(
     circle,
@@ -6,4 +6,10 @@
     transparent 1px
   );
   background-size: 30px 30px;
+  position: fixed;  /* 追加で画面全体に広げる */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;      /* 背景に配置 */
 }

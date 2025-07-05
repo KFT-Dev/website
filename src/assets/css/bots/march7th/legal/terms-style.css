@@ -1,0 +1,47 @@
+/* main全体 */
+#main {
+  margin: 0 auto 80px;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+}
+
+/* メインタイトル */
+#terms-title {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 70px;
+}
+
+/* セクション全体 */
+#main section {
+  margin: 0 200px;
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+}
+
+/* セクション内のh2 */
+#main section h2 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+/* セクション内のp（本文） */
+#main section p {
+  font-size: 22px;
+  white-space: pre-wrap; /* 自動折り返し */
+  word-break: break-word; /* 長い単語も折る */
+  margin-bottom: 30px;
+  font-family: "Kanit", sans-serif;
+}
+
+/* preタグがあれば対応 */
+#main section pre {
+  margin: 0 200px;
+  font-size: 22px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: "Kanit", sans-serif;
+}
