@@ -1,0 +1,9 @@
+#back-ground {
+  background-color: rgba(245, 245, 245, 0.95);
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.3) 1px,
+    transparent 1px
+  );
+  background-size: 30px 30px;
+}
