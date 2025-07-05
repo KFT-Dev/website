@@ -29,6 +29,10 @@ html, body {
   height: 200px;
 }
 
+.logos img {
+  height: 50px; /* 必要に応じて調整 */
+}
+
 /* SVGアニメーション */
 #sen {
   fill: none;
@@ -62,7 +66,8 @@ html, body {
 header {
   background: rgba(0, 0, 0, 0.6);
   color: white;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Changa One", sans-serif;
+  font-size: 20px;
   padding: 20px 0;
   position: relative;
   z-index: 2;
