@@ -1,0 +1,12 @@
+/* フッター */
+footer {
+  font-family: "Marck Script", cursive;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  background: rgba(30, 30, 30, 1);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+ 

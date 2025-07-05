@@ -18,7 +18,7 @@ const translations = {
         "ユーザーは希望に応じてデータの削除を行えます。\n\ni.ユーザーは、収集されたデータの削除を希望する場合、削除を行うことができます。\nii.開発者は、データ削除を希望されなくても、データを削除することがあります。",
       line_fou: "4. お問い合わせについて",
       desc_fou:
-        "開発者のデータの管理に関して何か疑問などがある場合、下記の方法で問い合わせを行えます。\n\n・Discord サーバー名:　Honkai : Star Rail 3rd and Genshin / (サポートサーバー)\n・BOT 開発者:　kft_switch\n・下記 問い合わせボタン",
+        "開発者のデータの管理に関して何か疑問などがある場合、下記の方法で問い合わせを行えます。\n\n・Discord サーバー名:　Honkai : Star Rail 3rd and Genshin / (サポートサーバー)\n・BOT 開発者:　kft_switch",
     },
     en: {
       title: "Build Card Privacy Policy",
@@ -34,13 +34,25 @@ const translations = {
         "Users can request deletion of their data at their discretion.\n\ni. If the user wishes to delete the collected data, the developer will comply.\nii. The developer may also delete data even without a user request.",
       line_fou: "4. Contact Information",
       desc_fou:
-        "If you have any questions about how the developer manages data, you can contact us through the following methods:\n\n・Discord Server Name: Honkai : Star Rail 3rd and Genshin / (Support Server)\n・BOT Developer: kft_switch\n・Contact button below",
+        "If you have any questions about how the developer manages data, you can contact us through the following methods:\n\n・Discord Server Name: Honkai : Star Rail 3rd and Genshin / (Support Server)\n・BOT Developer: kft_switch",
     },
   },
 };
 
 // DOMに挿入
 const content = translations.policy[lang];
+
+const langSwitch = document.getElementById("lang-switch");
+
+if (lang === "en") {
+  // 現在英語なら日本語リンクを表示
+  langSwitch.textContent = "JP";
+  langSwitch.href = "?lang=jp"; // 日本語へ切り替えリンク
+} else {
+  // それ以外（日本語等）なら英語リンクを表示
+  langSwitch.textContent = "EN";
+  langSwitch.href = "?lang=en"; // 英語へ切り替えリンク
+}
 
 // title変更
 document.getElementById("policy-title").textContent = content.title;
