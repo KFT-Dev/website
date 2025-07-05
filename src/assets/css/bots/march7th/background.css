@@ -1,0 +1,13 @@
+#background {
+  background-image: url("https://cdn.glitch.global/fc7bbe7c-ad48-4880-91a4-f40f9c7fb303/bc-background.webp?v=1716637351427");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: fixed;  /* 追加で画面全体に広げる */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; 
+}
